@@ -53,6 +53,17 @@ function Navbar() {
                         <li>
                             <NavLink to="/products" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Products</NavLink>
                         </li>
+
+                       
+                        
+                        <NavLink to="/cart"  className="text-2xl inline-flex items-center px-5 py-2.5 font-medium text-center text-white rounded-lg  focus:ring-4 focus:outline-none">
+                        <i className="fas fa-cart-shopping"></i>
+                        <span className="inline-flex items-center justify-center w-4 h-4 ms-2 text-sm font-semibold text-blue-800 bg-blue-200 rounded-full">
+                        2
+                        </span>
+                        </NavLink>
+
+
                     </ul>
                 </div>
             </div>
